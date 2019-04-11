@@ -60,3 +60,9 @@ defaults:
       type: posts
     values:
       read_time: true
+
+author:
+  name     : "Fabio Eight"
+  #avatar   : "/assets/images/bio-photo.jpg"
+  bio      : "Geek & InfoSec Enthusiast"
+  location : "Turin, Italy" 
