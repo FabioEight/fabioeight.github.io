@@ -46,12 +46,13 @@ plugins:
 
 # Theme config
 
+#Search
 search: true
-
+#Theme
 minimal_mistakes_skin: "dark" # "air", "default", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+#PostsPerPage
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-
 #Read Time
 defaults:
   # _posts
@@ -60,7 +61,8 @@ defaults:
       type: posts
     values:
       read_time: true
-
+      author_profile: true
+#Sidebar
 author:
   name     : "Fabio Eight"
   #avatar   : "/assets/images/bio-photo.jpg"
